@@ -1,0 +1,132 @@
+/* General Styling */
+body {
+    font-family: 'Tahoma', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    color: #0056b3;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: right;
+}
+th {
+    background-color: #007bff;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Details Row Styling */
+.details-row td {
+    background-color: #e9f5ff;
+    padding: 20px;
+}
+.details-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.details-content img.icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
+.details-content img.ui-image {
+    max-width: 250px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+.details-text p {
+    margin: 5px 0;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="url"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Important for padding */
+}
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+.checkbox-group input {
+    width: auto;
+    margin-left: 10px;
+}
+.form-buttons {
+    margin-top: 20px;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+button[type="submit"] {
+    background-color: #28a745;
+}
+button[type="reset"] {
+    background-color: #dc3545;
+    margin-right: 10px;
+}
